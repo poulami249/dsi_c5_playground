@@ -2,20 +2,20 @@
 
 Session #3: Git & GitHub
 
-Initializing a Repository
+Initializing a Repository- Poulami
 Create a new Git repository: git init
 Create a new branch called main while initializing: git init -b main
 Cloning a Repository
 Clone an existing repository: git clone <repository_url>
 Clone and rename the directory: git clone <repository_url> <new_directory_name>
 Tracking Files
-Check the status of your repository: git status
+-Check the status of your repository: git status
 Track a new file: git add <file_name>
 Track all files: git add -A
 Committing Changes
-Commit staged changes with a message: git commit -m "Your commit message"
-Commit without -m for a detailed message: git commit (Enter the message in the editor)
-Remote Repositories
+-Commit staged changes with a message: git commit -m "Your commit message"
+-Commit without -m for a detailed message: git commit (Enter the message in the editor)
+-Remote Repositories
 Check remotes: git remote -v
 Add a remote repository: git remote add origin <repository_url>
 Show details of a remote: git remote show origin
